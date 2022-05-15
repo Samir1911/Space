@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Space tourism website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Barlow:wght@300&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="dest.css">
+  <!-- <style>
+    body{
+      background-image:url(assets/destination/background-destination-mobile.jpg);
+    }
+    @media(min-width:376px){
+      body{
+        background-image: url(assets/destination/background-destination-tablet.jpg);
+      }
+    }
+    @media(min-width:768px){
+      body{
+        background-image: url(assets/destination/background-destination-desktop.jpg);
+      }
+    }
+  </style> -->
+</head>
+<body>
+  
+  <header>
+    <img id="logo" src="assets/shared/logo.svg" alt="logo">
+    <!---->
+    <img id="menu" src="assets/shared/icon-hamburger.svg" alt="menu">
+    <nav><a href="index.html">HOME</a>
+      <a href="destination.html">DESTINATION</a>
+      <a href="crew.html">CREW</a>
+      <a href="technology.html">TECHNOLOGY</a>
+    </nav>
+  </header>
+  <aside>
+    <img id="close" src="assets/shared/icon-close.svg" alt="close">
+    <a href="index.html">00 Home</a>
+    <a href="destination.html">01 Destination</a>
+    <a href="crew.html">02 Crew</a>
+    <a href="technology.html">03 Technology</a>
+  
+  </aside>
+
+  
+  <main id="destmain">
+    <div id="head">
+      <span>01</span>
+      <h5 id="destHead">PICK YOUR DESTINATION</h5>
+    </div>
+
+    <div id="flex">
+      <div id="img1"><img id="img" src="assets/destination/image-moon.png" alt="moon"></div>
+      
+      <div id="text">
+        <div id="planets">
+          <button class="active">MOON</button>
+          <button class="inact">MARS</button>
+          <button class="inact">EUROPA</button>
+          <button class="inact">TITAN</button>
+        </div>
+        <h1>MOON</h1>
+        <p id="destpara">See our planet as you’ve never seen it before. A perfect relaxing trip away to help
+          regain perspective and come back refreshed. While you’re there, take in some history
+          by visiting the Luna 2 and Apollo 11 landing sites.</p>
+        <hr id="desthr">
+        <div id="DT">
+          <div id="destp1">
+            <p class="p11">AVG. DISTANCE</p>
+            <p class="p12">384,400 KM</p>
+          </div>
+          <div id="destp2">
+            <p class="p11">EST. TRAVEL TIME</p>
+            <p class="p12">3 DAYS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+<script src="app.js"></script>
+<script src="dest.js"></script>
+  
+</body>
+</html>

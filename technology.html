@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Space tourism website</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Barlow:wght@300&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="tech.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="assets/shared/logo.svg" alt="logo">
+        <!---->
+        <img id="menu" src="assets/shared/icon-hamburger.svg" alt="">
+        <nav><a href="index.html">HOME</a>
+        <a href="destination.html">DESTINATION</a>
+        <a href="crew.html">CREW</a>
+        <a href="technology.html">TECHNOLOGY</a></nav>
+    </header>
+    <aside>
+        <img id="close" src="assets/shared/icon-close.svg" alt="close">
+        <a href="index.html">00 Home</a>
+        <a href="destination.html">01 Destination</a>
+        <a href="crew.html">02 Crew</a>
+        <a href="technology.html">03 Technology</a>
+    </aside>
+    <main>
+        <h5 id="techHead"><span>03</span> Space launch 101</h5>
+        <div id="gridy">
+            <img id="img" src="assets/technology/image-launch-vehicle-landscape.jpg" alt="techy">
+            <div id="radbtn">
+                <!-- <div class="val"><input type="radio" name="choosetech" class="ctech" value="1">
+                    <p>1</p>
+                </div>
+                <div class="val"><input type="radio" name="choosetech" class="ctech" value="2">
+                    <p>2</p>
+                </div>
+                <div class="val"><input type="radio" name="choosetech" class="ctech" value="3">
+                    <p>3</p>
+                </div> -->
+                <input type="radio" name="rb" class="ctech" checked>
+                <input type="radio" name="rb" class="ctech">
+                <input type="radio" name="rb" class="ctech">
+            </div>
+            <div id="content">
+                <div id="term">THE TERMINOLOGY ...</div>
+                <h3>LAUNCH VEHICLE</h3>
+                <div id="text">
+                    A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a
+                    payload from Earth's surface to space, usually to Earth orbit or beyond. Our
+                    WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall,
+                    it's quite an awe-inspiring sight on the launch pad!
+                </div>
+            </div>
+        </div>
+            
+    </main>
+
+    <script src="app.js"></script>
+    <script src="tech.js"></script>
+</body>
+</html>
